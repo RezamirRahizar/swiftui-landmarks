@@ -10,6 +10,7 @@ import Foundation
 @Observable //supports data changes without using property wrapper/bindings
 class ModelData {
     var landmarks: [Landmark] = load("landmarkData.json")
+    var hikes: [Hike] = load("hikeData.json")
 }
 
 
